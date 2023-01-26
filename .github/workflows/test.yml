@@ -15,7 +15,7 @@ jobs:
      - name: run tests
        run: npm test
   deploy:
-   runs-0n:
+   runs-0n: ubuntu-latest
     steps:
      - name: getcode
        uses: actions/checkout@v3
@@ -31,7 +31,7 @@ jobs:
        run: npm test build
      - name: deploy
        run: echo" deployed"
-       
+
         
 
 
